@@ -2,91 +2,415 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Steve Clark",
-    "label": "Sr. Platform Engineer",
+    "label": "25+ years of experience managing teams to architect cloud computing platforms and execute DevOps best practices while building and maintaining highly available infrastructures.",
     "image": "",
     "email": "steve@bigsteve.us",
-    "phone": "(912) 555-4321",
-    "url": "https://www.bigsteve.us/",
-    "summary": "  25+ years of experience managing teams to architect cloud computing platforms and execute DevOps",
+    "phone": "",
+    "url": "",
+    "summary": "Known for architecting AWS infrastructure to support Mobile Passport and Airside Mobile platforms. Distinguished history of streamlining development processes and facilitating automated build and release cycles by establishing a cloud-based Continuous Integration (CI) release platform. Reputed for executing disaster recovery measures, establishing security controls, and strengthening regulatory compliance (SOC2 and PCI) to ensure operational continuity and enhance data protection across production environments. Notable system administration background across multiple platforms, including Red Hat Enterprise, IBM AIX, Sun Solaris, OEL, and CentOS. Deep knowledge of CI / CD practices with a knack for developing automated scripts and building OS template build processes. Strong cross-functional teaming skills with the ability to develop business cases and gain investment support for platform expansion and envision and effectively evangelize the future of the organization's digital ecosystem.",
     "location": {
-      "address": "438 McArthur Ave",
-      "postalCode": "34243",
-      "city": "Sarasota",
       "countryCode": "US",
-      "region": "Flordia"
+      "address": "United States"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "sclark007",
-        "url": "https://twitter.com/sclark007"
-      },
-      {
-        "network": "Linkedin",
+        "network": "LinkedIn",
         "username": "steveclark6",
         "url": "https://www.linkedin.com/in/steveclark6/"
       },
       {
-        "network": "GitHub",
+        "network": "Twitter",
         "username": "sclark007",
-        "url": "https://github.com/sclark007"
+        "url": "https://twitter.com/sclark007"
       }
     ]
   },
   "work": [
     {
-      "name": "AirsideMobile",
-      "location": "Remote",
-      "description": "Awesome compression company",
-      "position": "Director of Operations",
-      "url": "https://airsidemobile.com",
-      "startDate": "2018-10-01",
-      "endDate": "2023-09-01",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
-      "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
-      ]
-    }
-  ],
-  "skills": [
-    {
-      "name": "Web Development",
-      "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript"
-      ]
+      "name": "Airside Mobile, Inc.",
+      "position": "Director Of Operations",
+      "startDate": "2018-01-31",
+      "endDate": "2023-08-31",
+      "highlights": [],
+      "summary": "Deliver leadership to design and implement a DevOps program to ensure maintenance of the Airside mobile AWS platform. Architect and support all AWS services and back-office applications to enhance infrastructure capabilities, optimize system performance, and drive operational efficiency.  \n\n    Designed and implemented an AWS (Amazon Web Services) GovCloud architecture to support the Mobile Passport platform and the Airside Digital Identity app enabling secure and compliant operations, seamless scalability, and improved performance for the platform. \n\n    Architect a Docker environment utilizing HashiStack (Nomad, Consul, Vault) to support multiple environments.  \n\n    Provided comprehensive support for Airside's mobile architecture while building an AWS platform. \n\n    Developed a cloud-based Continuous Integration release platform (leveraging the CircleCI/Jenkins platform), resulting in streamlined software development processes and automated build and release cycles. \n\n    Attained a 90% CIS (Center for Internet Services) compliance audit score by implementing AWS Security Hub.  \n\n    Maintained 99.99% availability for the Airside Mobile platform while maintaining infrastructure, executing disaster recovery measures, and significantly reducing system downtime. \n\n    Successfully achieved multiyear SOC2 compliance on the AWS platform by executing security controls, coordinating audits, and aligning overall operations with regulatory standards.  \n\n    Successfully transitioned Mobile Passport backend out of a datacenter and into a highly available HashiStack in the AWS GovCloud environment.",
+      "url": "https://www.linkedin.com/company/airside/",
+      "location": "Herndon"
     },
     {
-      "name": "Compression",
-      "level": "Master",
-      "keywords": [
-        "Mpeg",
-        "MP4",
-        "GIF"
-      ]
+      "name": "Clark IT Consulting",
+      "position": "Owner ",
+      "startDate": "2017-03-31",
+      "endDate": "2018-10-31",
+      "highlights": [],
+      "summary": "Specializing in transforming Operations and Engineering teams towards automation and CI pipelines. Currently working in the federal government space driving teams to support more automation for infrastructure and application releases.",
+      "url": ""
+    },
+    {
+      "name": "Newgen Technologies Inc",
+      "position": "Chief Admin Developer",
+      "startDate": "2016-07-31",
+      "endDate": "2018-10-31",
+      "highlights": [],
+      "summary": "Fulfilled the mandate to build an environment stack capable of supporting end-to-end development, testing, and deployment functions. Enhanced OS builds and application deployment processes by employing DevOps best practices and methodologies.  \n\n    Enhanced security and compliance measures for AIX and Red Hat operating systems by executing robust controls and conducting thorough assessments in line with industry standards and regulatory requirements. \n\n    Ensured consistent OS configurations and baselines while developing and implementing new template automation practices. \n\n    Drove compliance across all operating systems (OS) by developing Chef cookbooks. \n\n    Devised Terraform plans for IBM PowerVC and vSphere environments, enabling efficient provisioning and management of AIX and Red Hat-based hosts.  \n\n    Established chef cookbook development workflow by leveraging PowerVC and test-kitchen. Designed and implemented the entire Chef infrastructure within a fully air-gapped environment.",
+      "url": "https://www.linkedin.com/company/newgen-technologies-inc/",
+      "location": "Baltimore/Washington Area"
+    },
+    {
+      "name": "Neustar, Inc.",
+      "position": "Sr System Admin",
+      "startDate": "2013-08-31",
+      "endDate": "2016-06-30",
+      "highlights": [],
+      "summary": "* Designing and maintaining chef cookbooks for the core infrastructure. ntp,snmp,smtp,postfix. \n* Developing Python Fabric scripts to use for automation on system deployment and cookbook management. \n* Developing workflows to support chef,git and jenkins. \n* Developed Python Fabric scripts to automate management of HP VCEM and VC.\n* Developed virt-install wrappers scripts to automate vm creation.\n* Designed HA internal kickstart and YUM repository.",
+      "url": "https://www.linkedin.com/company/neustar-inc/"
+    },
+    {
+      "name": "Neustar, Inc.",
+      "position": "Staff System Admin",
+      "startDate": "2011-09-30",
+      "endDate": "2013-06-30",
+      "highlights": [],
+      "summary": "RESPONSIBILITIES:\nWorked on private cloud environment and actively participated and led build and migration teams to successfully complete a migration Project with over 100 critical machines.\n\n* Worked on private cloud environment and actively participated and led build and migration teams to successfully complete a migration Project with over 1000 critical machines.\n* Built Linux physical and virtual servers for PROD and Contingency server migration between Primary and Secondary Data Centers using PXE and kickstart.\n* Consolidated and converted Physical to Virtual using technologies like DD, Clonzilla, using Xen and KVM Hypervisors.\n* Worked with database admins and assisted them with oracle and Postgres databases for migration and production.\n* Developed HP PSP installation process and installed on over 1500+ Linux Systems.   \n* Actively Participated in DR exercises between data centers and production cutovers during weekends.\n* Experience Troubleshooting several access, performance, hardware and tuning issues with new builds and existing servers.\n* Developed a process to identify OS installation defects that would prevent systems from rebooting predictively.\n * Developed Cobbler PXE kickstart using SAN root disks that require no post kernel configuration and utilizing all paths for Clarion and Symmetric arrays.\n* Technical lead on company first generation installation of Big Data using Hadoop/HIVE this was a 40 node configuration and a capacity of 2 petabyte of storage.\n\nENVIRONMENT:\nOver 2000 physical and virtual machines including LDOMs, Lpars, Zones, VMs, Solaris 8, 9, 10, RHEL 3.x,4.x,5.x, 6.x, IBM AIX 6.x, 7.x, IBM, DELL Blades, SUN T series and Mseries, Dell Power-edge, HP DL Proliants, HP BladeSystem, HP BL 46X, HP D2600, Oracle 10g, 11g, SAP, Weblogic 11.x, Websphere, HP DataProtector, Tripwire, ZFS, LVM, EMC, LDAP, AD. EMC PowerPath 5.3,5.6,5.7. Cobbler, Xen, KVM.",
+      "url": "https://www.linkedin.com/company/neustar-inc/",
+      "location": "Sterling VA"
+    },
+    {
+      "name": "NeuStar, Inc.",
+      "position": "Storage Engineer",
+      "startDate": "2011-04-30",
+      "endDate": "2011-10-31",
+      "highlights": [],
+      "summary": "* Documented offline storage off site tape rotation procedure for iron systems offsite storage.\n* Documented offline tape recovery process for audit and SOX. \n* Documented EMC Data Domain replacement disk procedure and health checks. \n* Experience using HP Data protector to perform backup and restore for a environment of 2000 systems. \n* Assisted in installing new Quantum Tape Library and migrating off existing StorageTek library this consisted of multiple de-duplication and monthly tape rotation. \n* Implemented TAC-ACS LDAP access on existing cisco MDS fiber switch’s.  \n* Developed HP DataProtector RPM to install backup software with zero post installation tasks.\n\nENVIRONMENT:\nEMC Clarion, DMX, VNX, VMAX, Symmetric, Data Domain. HP OpenView, HP DataProtector, CISCO MX-IOS, Cisco MDS switchs. SANScreen, IBM XIV, IBM SVC.",
+      "url": "https://www.linkedin.com/company/neustar-inc/"
+    },
+    {
+      "name": "NeuStar, Inc.",
+      "position": "Network Operations Specialist",
+      "startDate": "2010-04-30",
+      "endDate": "2011-05-31",
+      "highlights": [],
+      "summary": "RESPONSIBILITIES:\n\n* Developed DNS verification script to verify DNS serial numbers. \n* Monitor all NeuStar systems and immediately alert appropriate group(s) on any unusual activity\n* Monitor and troubleshoot network issues. Turn up customers on network level\n* Turn up customers on private network.\n* Setup new users in Radius and ACE\n* Troubleshoot the remote login issues for internal users, LTI customers and registrars\n* Set up new and replacement secure ID token for NeuStar customers\n* In an event of an outage, coordinate various groups on the bridge and prepare a timeline for the RCA purposes.\n\nENVIRONMENT: Netcool, Nagios, Linux 5.x.",
+      "url": "https://www.linkedin.com/company/neustar-inc/"
+    },
+    {
+      "name": "NeuStar, Inc.",
+      "position": "Telecommunications Engineer",
+      "startDate": "2006-07-31",
+      "endDate": "2010-05-31",
+      "highlights": [],
+      "summary": "RESPONSIBILITIES:\n* Perform all MAC for over 1000+ Neustar Employees in Corporate Headquarters. \n* Maintain 30+ Avaya Call centers in multiple offices with advanced call routing. \n* Maintain multiple Asterisk PBX servers for overseas offices and over 900 SIP extensions \n* Integrated Asterisk PBX with existing AVAYA PBX via SIP trunking and TDM T1 card.\n* Designed asterisk IVR for each office and call flows. \n* Developed Emergency calling application for Israel office to notify employees if office will be closed due to bomb or missile threat \n* Provided primary support for all wireless communication devices Blackberries, Cell Phone, and Broadband cards.\n* Meet regularly with Wireless carriers on new and exiting phone service and services. \n* Audited active wireless phones and verified active user and status of phone. This helped reduce the corporate wireless budget by 20%. \n* Assisted in developing Avaya Call center statistics export to Salesforce.com to assist Sales mangers in identifying call stats and sales teams performance.  \n* Provided technical support for implementing a TEMS (telecomm expense management system) this moved the telecomm inventory information from a excel document to a cloud based application.  \n* Maintained 120+ fax and POTS lines for call centers. \n* Provided Technical lead in migrating from a Digital phones to IP. \n* Built and Configured Avaya SES to integrate SIP trunks from Verizon SIP gateway (ACME Packet) \n* Converted onsite Conference system(Sonexis) from TDM Trunks to SIP Trunks. \n* Delepoyed a hylafax/IAXmodem configuration for Linux based system to move away from legacy windows based fax applications this reduced outages and increased performance by 50%. \n\nENVIRONMENT:  Avaya Aura, Avaya AES, Avaya SES, OpenSER, Asterisk, FreePBX, IAXModem, hylaFAX, Trixbox, PBX in a flash, Sonexis, Acme Packet.",
+      "url": "https://www.linkedin.com/company/neustar-inc/"
+    },
+    {
+      "name": "NeuStar, Inc.",
+      "position": "Network Ops Spec Tier 1",
+      "startDate": "2004-11-30",
+      "endDate": "2006-07-31",
+      "highlights": [],
+      "summary": "RESPONSIBILITIES:\n\n* Developed DNS verification script to verify DNS serial numbers. \n* Monitor all NeuStar systems and immediately alert appropriate group(s) on any unusual activity\n* Monitor and troubleshoot network issues. Turn up customers on network level\n* Turn up customers on private network.\n* Setup new users in Radius and ACE\n* Troubleshoot the remote login issues for internal users, LTI customers and registrars\n* Set up new and replacement secure ID token for NeuStar customers\n* In an event of an outage, coordinate various groups on the bridge and prepare a timeline for the RCA purposes.\n\nENVIRONMENT: Netcool, Nagios, Linux 5.x.",
+      "url": "https://www.linkedin.com/company/neustar-inc/"
+    },
+    {
+      "name": "Electronic Health Information",
+      "position": "Enterprise Systems Administrator",
+      "startDate": "2000-01-31",
+      "endDate": "2001-01-31",
+      "highlights": [],
+      "summary": "Responsible for systems that ranged from high volume/high availability website farm management (ehealth.com) to corporate infrastructure information systems. Corporate WAN infrastructure included several major processing sites connected via VPNs over T1s. Familiar with connectivity infrastructure including T1 configuration/troubleshooting, routers, firewalls, DNS and RAS. Familiar with all phases of Microsoft system based web content delivery including IIS configuration and management, email, FTP and reporting services. Coordinated system upgrades throughout enterprise. Main point of contact for virus research and resoluti",
+      "url": ""
+    },
+    {
+      "name": "Electronic Health Information",
+      "position": "Sr. Technical Support Engineer / Technical Support Engineer",
+      "startDate": "1997-01-31",
+      "endDate": "2000-02-28",
+      "highlights": [],
+      "summary": "Initially hired as support engineer, promoted to senior support engineer with oversight responsibility for other technical support staff in 1999. Provided help desk response to a wide variety of system platforms/network environments in hundreds of medical facilities across the United States that used eighteen internally developed medical information imaging and data management applications. Systems ranged from standalone configurations to complex enterprise networked systems serving mission critical applications in Emergency Rooms. Extensive hardware experience including manufacturing of new systems and depot repair of failed system hardware. Primary field engineer for PA, VA and MD. Authored Visual Basic application that collects vital system information to ease technical support interaction with users. Promoted to Enterprise System Administrator",
+      "url": ""
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "HP Online",
+      "area": "HP BladeSystem Virtual Connect",
+      "studyType": "",
+      "startDate": "2012-12-31",
+      "endDate": "2012-12-31",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "HP Online",
+      "area": "HP SIM and Insight Control",
+      "studyType": "",
+      "startDate": "",
+      "endDate": "",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [
+    {
+      "name": "Red Hat Certified Systems Administrator",
+      "issuer": "Red Hat Certification Central",
+      "startDate": "2013-04-30"
+    },
+    {
+      "name": "ITIL® Foundation Certificate in IT Service Management",
+      "issuer": "ITIL",
+      "startDate": "2013-10-31"
+    },
+    {
+      "name": "AWS Cloud Quest: Cloud Practitioner",
+      "issuer": "Amazon Web Services (AWS)",
+      "startDate": "2023-09-30",
+      "url": "https://www.credly.com/badges/2d84494b-a536-4ed9-8e27-403209333201/linked_in_profile"
+    },
+    {
+      "name": "AWS Cloud Quest: Solutions Architect",
+      "issuer": "Amazon Web Services (AWS)",
+      "startDate": "2023-09-30",
+      "url": "https://www.credly.com/badges/803704e1-f1cf-4685-a81a-ab1460b94259/linked_in_profile"
+    },
+    {
+      "name": "AWS Cloud Quest: Networking",
+      "issuer": "Amazon Web Services (AWS)",
+      "startDate": "2023-09-30",
+      "url": "https://www.credly.com/badges/da5061df-5ab5-43f8-9773-81b8e64685cc/linked_in_profile"
+    },
+    {
+      "name": "AWS Cloud Quest: Security",
+      "issuer": "Amazon Web Services (AWS)",
+      "startDate": "2023-09-30",
+      "url": "https://www.credly.com/badges/60a85724-aaac-4278-a930-15c3ea73fd8a/linked_in_profile"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Platform Architecture",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Domain Architecture",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "DevOps",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Commercial Operation",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Airside",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Neustar, Inc.",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Xen",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "VCM",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HP SIM",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HP BladesSystem",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Unix",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Virtualization",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Domain Name System (DNS)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Virtual Private Network (VPN)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Linux",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HP Proliant",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Session Initiation Protocol (SIP)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Data Center",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "VPN",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Network Security",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Cloud Computing",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Disaster Recovery",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HP Server",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Enterprise Software",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Storage Area Network (SAN)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Computer Security",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HP Blade",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SAN",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Nagios",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Solaris",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Security",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "VMware Infrastructure",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Red Hat Linux",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SIP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Firewalls",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Cobbler",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "System Administration",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Telecommunications",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Operating Systems",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "VCEM",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "DNS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Linux KVM",
+      "level": "",
+      "keywords": []
     }
   ],
   "languages": [
     {
       "language": "English",
-      "fluency": "Native speaker"
+      "fluency": "Native Speaker"
     }
   ],
-
-  "references": [
-    {
-      "name": "Erlich Bachman",
-      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
-    }
-  ],
-
+  "interests": [],
+  "references": [],
+  "projects": [],
   "meta": {
-    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
     "version": "v1.0.0",
-    "lastModified": "2017-12-24T15:53:00"
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
   }
 }
